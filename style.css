@@ -221,12 +221,21 @@ html {
 }
 
 .box-icon {
-  width: 7.5%;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 25%;
   display: block;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -3.75%;
+}
+
+.hoodie-wrapper {
+  background-image: url("./patagonia_hoodie.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
 }
 
 .box-icon--one {
