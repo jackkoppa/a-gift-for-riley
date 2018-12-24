@@ -109,10 +109,15 @@ html {
 
 .tag__text {
   position: absolute;
-  bottom: 32px;
   width: 100%;
   text-align: center;
-  font-size: 10px;
+  font-size: 14px;
+}
+.tag__text--top {
+  bottom: 44px;
+}
+.tag__text--bottom {
+  bottom: 26px;
 }
 
 .bow {
